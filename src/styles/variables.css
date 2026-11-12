@@ -1,0 +1,84 @@
+:root {
+  /* Color Palette - Opción 4: Vibrant CESDE & Gamified (Dinámica, Retos y Recompensas) */
+  --primary: #e5007d; /* Magenta CESDE oficial vibrante */
+  --primary-hover: #c20066;
+  --primary-light: #fdf2f8;
+  --primary-dark: #9d174d;
+  --primary-glow: rgba(229, 0, 125, 0.35);
+
+  --secondary: #f59e0b; /* Oro / Ámbar Gamificado para XP, Insignias y Recompensas */
+  --secondary-hover: #d97706;
+  --secondary-light: #fef3c7;
+
+  --accent: #8b5cf6; /* Púrpura Real Gamificado */
+  --accent-light: #ede9fe;
+
+  /* Brand CESDE Specifics (Gamified Edition) */
+  --brand-cesde: #e5007d;
+  --brand-cesde-dark: #9d174d;
+  --brand-navy: #1e0b36; /* Púrpura medianoche profundo */
+
+  /* Semantic Colors */
+  --success: #10b981; /* Verde logro / Misión cumplida */
+  --success-light: #d1fae5;
+  --success-dark: #065f46;
+
+  --warning: #f59e0b; /* Oro / XP */
+  --warning-light: #fef3c7;
+  --warning-dark: #92400e;
+
+  --danger: #ef4444;
+  --danger-light: #fee2e2;
+  --danger-dark: #991b1b;
+
+  --info: #06b6d4;
+  --info-light: #cffafe;
+  --info-dark: #0e7490;
+
+  /* Neutrals & Surfaces (Armonizados con la barra lateral limpia) */
+  --bg-main: #fbf7ff; /* Blanco con sutilísimo matiz lavanda */
+  --bg-surface: #ffffff; /* Blanco puro */
+  --bg-surface-alt: #f5efff; /* Lavanda suave para contraste */
+  --bg-sidebar: #ffffff; /* Barra lateral armonizada en blanco cristalino */
+  --bg-sidebar-hover: #f5efff;
+  --bg-sidebar-active: #fdf2f8;
+
+  --text-main: #1f1035; /* Púrpura noche nítido */
+  --text-secondary: #581c87; /* Violeta intermedio */
+  --text-muted: #7e22ce;
+  --text-light: #faf5ff;
+  --text-white: #ffffff;
+
+  --border-light: #ede4f7; /* Borde lila sutil */
+  --border-medium: #d8b4fe;
+  --border-focus: #e5007d; /* Borde activo Magenta */
+
+  /* Typography */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Shadows con sutil calidez */
+  --shadow-xs: 0 1px 2px 0 rgba(74, 15, 75, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(74, 15, 75, 0.08), 0 1px 2px -1px rgba(74, 15, 75, 0.08);
+  --shadow-md: 0 4px 6px -1px rgba(74, 15, 75, 0.08), 0 2px 4px -2px rgba(74, 15, 75, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(74, 15, 75, 0.1), 0 4px 6px -4px rgba(74, 15, 75, 0.08);
+  --shadow-xl: 0 20px 25px -5px rgba(74, 15, 75, 0.12), 0 8px 10px -6px rgba(74, 15, 75, 0.08);
+  --shadow-glow: 0 0 22px var(--primary-glow);
+
+  /* Transitions & Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout dimensions */
+  --sidebar-width: 260px;
+  --sidebar-collapsed-width: 80px;
+  --navbar-height: 70px;
+}
